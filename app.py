@@ -64,8 +64,8 @@ with placeholder.container():
     st.info('source code: https://github.com/jgomeher83/instagram_analysis') # Blue Colored Info message
     st.markdown("### Description of the data")
     st.info('Here you can see that the data contains information about 119 Instagram posts. The variables or features are segmented by source of each publication, saves, comments, shares, likes, profile views, follows, hashtags and captions') # Blue Colored Info message
-    st.dataframe(df.head(5), width=1500)
-    st.dataframe(describe, width=1500)
+    st.dataframe(df.head(5), width=2500)
+    st.dataframe(describe, width=2500)
     st.subheader('Correlation chart and Sources from Impressions Pie Chart')
     
     correlation, pie = st.columns(2)
